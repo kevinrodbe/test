@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "release-it --ci --git.tag=true --no-increment",
+    "release": "release-it --ci --git.tag=true",
     "ci": "release-it --ci -i pre"
   },
   "keywords": [],
