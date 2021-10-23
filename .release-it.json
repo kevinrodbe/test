@@ -4,8 +4,7 @@
     "commitMessage": "[ci skip]",
     "push": true,
     "pushArgs": ["--follow-tags"],
-    "tag": false,
-    "tagName": "v${version}"
+    "tag": false
   },
   "github": {
     "release": false
