@@ -2,9 +2,13 @@
   "git": {
     "commitMessage": "[ci skip]",
     "tagName": "v${version}",
-    "tag": false
+    "tag": false,
+    "push": false
   },
   "github": {
-    "release": true
+    "release": false
+  },
+  "npm": {
+    "publish": false
   }
 }
