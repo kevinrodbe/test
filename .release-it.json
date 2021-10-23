@@ -1,10 +1,10 @@
 {
   "git": {
-    "commitArgs": "-S",
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
     "commitMessage": "[ci skip]",
     "push": true,
-    "tag": false,
-    "tagArgs": "-S",
+    "pushArgs": ["--follow-tags"],
+    "tag": true,
     "tagName": "v${version}"
   },
   "github": {
