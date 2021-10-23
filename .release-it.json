@@ -3,7 +3,7 @@
     "commitMessage": "[ci skip]",
     "tagName": "v${version}",
     "tag": false,
-    "push": false
+    "push": true
   },
   "github": {
     "release": false
