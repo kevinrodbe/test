@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-2' --no-increment",
+    "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
     "ci": "release-it --ci -i pre"
   },
-  "keywords": [],
+  "keywords": [
+    "test"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
