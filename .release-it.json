@@ -1,9 +1,11 @@
 {
   "git": {
+    "commitArgs": "-S",
     "commitMessage": "[ci skip]",
-    "tagName": "v${version}",
+    "push": true,
     "tag": false,
-    "push": true
+    "tagArgs": "-S",
+    "tagName": "v${version}"
   },
   "github": {
     "release": false
