@@ -1,0 +1,10 @@
+{
+  "git": {
+    "commitMessage": "[ci skip]",
+    "tagName": "v${version}",
+    "tag": false
+  },
+  "github": {
+    "release": true
+  }
+}

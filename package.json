@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it --ci --git-tag=true --no-increment",
+    "ci": "release-it --ci -i pre"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^14.11.6"
+  }
+}
