@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
-    "ci": "release-it --ci"
+    "ci": "release-it --ci -i pre"
   },
   "keywords": [
     "test"
