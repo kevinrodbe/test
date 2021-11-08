@@ -1,6 +1,6 @@
 {
   "name": "@rodbe/test",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Testing cande sum",
   "main": "index.js",
   "bin": {
