@@ -22,7 +22,8 @@
     "release-it": "^14.11.6"
   },
   "dependencies": {
-    "@rodbe/config-module": "^1.0.0"
+    "@rodbe/config-module": "^1.0.0",
+    "@rodbe/test": "^1.2.3-rc.2"
   },
   "publishConfig": {
     "access": "public"
