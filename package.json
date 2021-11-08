@@ -1,10 +1,10 @@
 {
   "name": "@rodebe/test",
-  "version": "1.2.3-3",
+  "version": "1.2.3",
   "description": "Testing cande sum",
   "main": "index.js",
   "bin": {
-    "chami": "./cli.js"
+    "chami": "cli.js"
   },
   "scripts": {
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
