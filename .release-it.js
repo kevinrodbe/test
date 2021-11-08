@@ -4,6 +4,7 @@ module.exports = {
   // },
   git: {
     // changelog: 'auto-changelog --stdout --commit-limit false --unreleased --template changelog-compact.hbs',
+    changelog: '',
     commit: true,
     commitMessage: 'chore: release v${version} - [ci skip]',
     push: true,
