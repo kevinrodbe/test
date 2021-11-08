@@ -8,6 +8,7 @@
   },
   "scripts": {
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
+    "beta": "release-it --ci --preRelease=beta",
     "pre": "release-it --ci -i pre",
     "patch": "release-it --ci -i patch",
     "minor": "release-it --ci -i minor",
