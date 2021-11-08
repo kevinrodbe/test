@@ -7,6 +7,7 @@
     "chami": "cli.js"
   },
   "scripts": {
+    "log": "auto-changelog -p && git add CHANGELOG.md",
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
     "beta": "release-it --ci --preRelease=beta",
     "pre": "release-it --ci -i pre",
@@ -20,6 +21,7 @@
   "author": "kevinrb",
   "license": "ISC",
   "devDependencies": {
+    "auto-changelog": "^2.3.0",
     "release-it": "^14.11.6"
   },
   "dependencies": {
