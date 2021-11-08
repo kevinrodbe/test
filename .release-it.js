@@ -1,9 +1,9 @@
 module.exports = {
-  hooks: {
-    'after:bump': ['auto-changelog -p', 'git add CHANGELOG.md'],
-  },
+  // hooks: {
+  //   'after:bump': ['auto-changelog -p', 'git add CHANGELOG.md'],
+  // },
   git: {
-    changelog: 'auto-changelog --stdout --commit-limit false --unreleased --template changelog-compact.hbs',
+    // changelog: 'auto-changelog --stdout --commit-limit false --unreleased --template changelog-compact.hbs',
     commit: true,
     commitMessage: 'chore: release v${version} - [ci skip]',
     push: true,
@@ -18,6 +18,7 @@ module.exports = {
   },
   npm: {
     ignoreVersion: false,
-    publish: true,
+    // publish: true,
+    publish: false,
   },
 };
