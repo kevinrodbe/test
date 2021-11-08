@@ -1,6 +1,6 @@
 {
   "name": "@rodbe/test",
-  "version": "1.8.0-0",
+  "version": "1.8.0",
   "description": "Testing cande sum",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,7 @@
     "patch": "release-it --ci -i patch",
     "minor": "release-it --ci -i minor",
     "major": "release-it --ci -i major",
-    "preToMinor": "release-it --ci -i minor --no-git && npm run minor -- --no-git.requireCleanWorkingDir=false"
+    "preToMinor": "release-it --ci -i minor --no-git && release-it --ci -i minor --no-git.requireCleanWorkingDir=false"
   },
   "keywords": [
     "test"
