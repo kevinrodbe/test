@@ -13,7 +13,8 @@
     "pre": "release-it --ci -i pre",
     "patch": "release-it --ci -i patch",
     "minor": "release-it --ci -i minor",
-    "major": "release-it --ci -i major"
+    "major": "release-it --ci -i major",
+    "preToMinor": "release-it --ci -i minor --no-git && npm run minor"
   },
   "keywords": [
     "test"
