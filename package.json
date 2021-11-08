@@ -8,7 +8,7 @@
   },
   "scripts": {
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
-    "pre": "release-it --ci --preRelease=rc",
+    "pre": "release-it --ci -i pre",
     "patch": "release-it --ci -i patch",
     "minor": "release-it --ci -i minor",
     "major": "release-it --ci -i major"
@@ -23,5 +23,8 @@
   },
   "dependencies": {
     "@rodbe/config-module": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
