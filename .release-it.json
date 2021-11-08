@@ -1,7 +1,8 @@
 {
   "git": {
     "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-    "commitMessage": "[ci skip]",
+    "commit": true,
+    "commitMessage": "chore: release v${version} - [ci skip]",
     "push": true,
     "pushArgs": ["--follow-tags"],
     "tag": false

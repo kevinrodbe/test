@@ -1,8 +1,11 @@
 {
   "name": "@rodebe/test",
   "version": "1.2.3-3",
-  "description": "",
+  "description": "Testing cande sum",
   "main": "index.js",
+  "bin": {
+    "chami": "./cli.js"
+  },
   "scripts": {
     "release": "release-it --ci --git.tag=true --git.tagName='1.0.0-3' --no-increment",
     "pre": "release-it --ci -i pre",
@@ -13,7 +16,7 @@
   "keywords": [
     "test"
   ],
-  "author": "",
+  "author": "kevinrb",
   "license": "ISC",
   "devDependencies": {
     "release-it": "^14.11.6"
