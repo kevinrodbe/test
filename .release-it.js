@@ -8,6 +8,7 @@ module.exports = {
     commit: true,
     commitMessage: 'chore: release v${version} - [ci skip]',
     push: true,
+    // requireCleanWorkingDir: false,
     pushArgs: ['--follow-tags'],
     tag: false,
   },
