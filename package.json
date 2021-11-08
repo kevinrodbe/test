@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@rodebe/test",
   "version": "1.2.3-3",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "release-it": "^14.11.6"
+  },
+  "dependencies": {
+    "@rodbe/config-module": "^1.0.0"
   }
 }
