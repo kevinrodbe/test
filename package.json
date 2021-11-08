@@ -14,7 +14,7 @@
     "patch": "release-it --ci -i patch",
     "minor": "release-it --ci -i minor",
     "major": "release-it --ci -i major",
-    "preToPatch": "release-it --ci -i patch --no-git && release-it --ci -i patch --no-git.requireCleanWorkingDir"
+    "preToPatch": "release-it --ci -i patch --no-git && npm run patch --no-git.requireCleanWorkingDir"
   },
   "keywords": [
     "test"
